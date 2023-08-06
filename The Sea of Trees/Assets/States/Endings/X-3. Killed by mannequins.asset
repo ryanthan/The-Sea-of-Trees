@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: X-3. Killed by mannequins
+  m_EditorClassIdentifier: 
+  storyText: 'Terrified of what could have made that noise, you anxiously take a
+    look over your shoulder.
+
+
+    Staring back at you is a mannequin whose face
+    had been contorted into a frightening smile. While you are in shock, the rest
+    of the mannequins swiftly grab your arms and legs with surprising force.
+
+
+    No
+    matter how hard you tried to resist, they drag your helpless body into the back
+    room and shut the door...
+
+
+    From outside the cabin, your screams can be heard...
+
+
+    [1]
+    or [2]: Continue'
+  nextStates:
+  - {fileID: 11400000, guid: d0bcfcab601448f4f96574ff5ce0ca30, type: 2}
+  - {fileID: 11400000, guid: d0bcfcab601448f4f96574ff5ce0ca30, type: 2}
+  image: {fileID: 21300000, guid: b2706a8e82bdc2645914c6c6c646402a, type: 3}
+  soundEffect: {fileID: 8300000, guid: cfcdd5d76cb25fa45b5c53bbcf06c320, type: 3}

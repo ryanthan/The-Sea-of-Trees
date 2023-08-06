@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: Credits 2
+  m_EditorClassIdentifier: 
+  storyText: '- The "Violin Scare" sound effect was provided by SirBedlam on https://freesound.org/people/SirBedlam/sounds/393824/
+    through an Attribution License (no edits were made).
+
+
+    - The "DoorCreaking10.flac"
+    sound effect was provided by Zabuhailo on https://freesound.org/people/Zabuhailo/sounds/214081/
+    through an Attribution License (no edits were made).
+
+
+    - The "Wind blowing
+    through trees.mp3" sound effect was provided by CGEffex on https://freesound.org/people/CGEffex/sounds/92654/
+    through an Attribution License (no edits were made).
+
+
+    [1] or [2]: Continue'
+  nextStates:
+  - {fileID: 11400000, guid: 046f554c0ae41c84cb4f55a2e6f8e376, type: 2}
+  - {fileID: 11400000, guid: 046f554c0ae41c84cb4f55a2e6f8e376, type: 2}
+  image: {fileID: 21300000, guid: 1ee34bb74d05fab48b66599ac3aeb22f, type: 3}
+  soundEffect: {fileID: 0}

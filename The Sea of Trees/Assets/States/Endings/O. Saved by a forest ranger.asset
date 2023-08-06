@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: O. Saved by a forest ranger
+  m_EditorClassIdentifier: 
+  storyText: "The soft rumble of the engine gently rocks you awake. You push yourself
+    up off the leather seats to find a forest ranger in the driver's seat.\r\n\r\n\"Oh!
+    You're finally awake, are ya? You doin' okay? It must'a been scary out there
+    in that forest so late at night. Don'tcha worry, I'll getcha to the station safe
+    and sound so you can contact your family, alright?\" the forest ranger says.\r
+    With a sigh of relief, you sink back into your seat and give them an affirming
+    nod. \n\nAs the sea of trees fade out of sight, you wonder why you woke up there
+    in the first place. \rHowever, before you can think about it, your stomach begins
+    to rumble...\r\r\n[1] or [2]: Continue"
+  nextStates:
+  - {fileID: 11400000, guid: 5783fb0a2a5194a459470835566e7bdc, type: 2}
+  - {fileID: 11400000, guid: 5783fb0a2a5194a459470835566e7bdc, type: 2}
+  image: {fileID: 21300000, guid: ba4d4ac427d054646985875557704930, type: 3}
+  soundEffect: {fileID: 8300000, guid: 792ec717bd5b38f44ae8bf8792bb4399, type: 3}

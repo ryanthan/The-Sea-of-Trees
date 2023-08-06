@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: 3-4. Talk to the singer (cont.)
+  m_EditorClassIdentifier: 
+  storyText: "\"Tee hee hee! Quite the charmer, aren't you?  Now drifter, how will
+    you respond with this sneak preview?\"\r\n\r\nAs she removes her mask, she reveals
+    that her mouth has been slit from ear to ear. With a terrifying grin, she asks: 
+    \"What do you think of me now?\"\r\n\r\n\r\nHow will you you respond?\r\r\n[1]:
+    You are average looking.\r\n[2]: You are beautiful!"
+  nextStates:
+  - {fileID: 11400000, guid: ae981fa65a72b1b4e9f5738b968373be, type: 2}
+  - {fileID: 11400000, guid: 772e55fbb14211c49a7edd727dcce099, type: 2}
+  image: {fileID: 21300000, guid: c038e30a61ae06e45b5b98f7886e412a, type: 3}
+  soundEffect: {fileID: 8300000, guid: f9bf199326584cf45885f8a731d42571, type: 3}

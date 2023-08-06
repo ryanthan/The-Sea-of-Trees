@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: 6-1. Do not eat the honey
+  m_EditorClassIdentifier: 
+  storyText: "While you are starving, you do not want to be risk getting stung by
+    bees.\r\n\r\nYou choose to ignore the smell and continue making your way through
+    the forest, looking for something else to eat. However, as you trudge through
+    the seemingly never-ending labyrinth of trees, your vision starts to blur and
+    your body begins to feel heavy...\r\n\r\nYour hunger is beginning to take a toll
+    on your body. You stop for a minute to try and let the hunger subside.\r As you
+    sit at the foot of a nearby tree, you hear the slight rustling of leaves nearby.
+    It sounds like...footsteps? And is that...?\r\n\r\n[1] or [2]: Continue"
+  nextStates:
+  - {fileID: 11400000, guid: 614413f1df62c554292a183066f064dc, type: 2}
+  - {fileID: 11400000, guid: 614413f1df62c554292a183066f064dc, type: 2}
+  image: {fileID: 21300000, guid: 5de6625197507a94fb185900a223f73f, type: 3}
+  soundEffect: {fileID: 8300000, guid: dbff29febb75836429194f21d0fd3097, type: 3}

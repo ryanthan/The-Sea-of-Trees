@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: X. BAD ENDING
+  m_EditorClassIdentifier: 
+  storyText: 'GAME OVER
+
+
+
+    You have succumb to the horrors of the forest. May
+    your soul find rest, oh weary drifter...
+
+
+
+    [1] or [2] or [q]: Restart'
+  nextStates:
+  - {fileID: 11400000, guid: 690e78db16f417c47a1ae77c427f47d4, type: 2}
+  - {fileID: 11400000, guid: 690e78db16f417c47a1ae77c427f47d4, type: 2}
+  image: {fileID: 21300000, guid: 1ee34bb74d05fab48b66599ac3aeb22f, type: 3}
+  soundEffect: {fileID: 8300000, guid: 5ece946a3de3590438dd536562d24936, type: 3}

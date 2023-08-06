@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: 2-4. Continue
+  m_EditorClassIdentifier: 
+  storyText: "As you continue making your way through the forest, your stomach starts
+    to rumble. Since you have been so focused on getting out of the forest, you are
+    much more famished than you initially thought.\r You think to yourself: \"When
+    was the last time I ate? ... No good, I can't remember a thing. I need to find
+    something to eat soon. Maybe there are some fruits nearby?\r\"\nAs if on cue,
+    the mesmerizing smell of honey fills your nostrils. Possibly due to your hunger,
+    this seems to be the sweetest, most delicious smelling honey you have ever come
+    across.\r\n\r\nWhat will you do?\r\n[1]: Find the honey.\r\n[2]: Ignore the smell
+    and push onward."
+  nextStates:
+  - {fileID: 11400000, guid: 3dcfeecee8a04f94283e6969aef59831, type: 2}
+  - {fileID: 11400000, guid: 5baf1933a487f964fa774dc9d802c79a, type: 2}
+  image: {fileID: 21300000, guid: 9743ef78cc544144b9c38882ddcf3018, type: 3}

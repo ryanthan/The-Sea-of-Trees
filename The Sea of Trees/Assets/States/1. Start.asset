@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: 1. Start
+  m_EditorClassIdentifier: 
+  storyText: "Disgruntled, you awake to find yourself in the middle of a dense forest
+    in the dead of night.\r With no memory of how you arrived there, your main goal
+    is to escape the forest.\r\n\r\nThe wind howls as it dances among the trees.\r\r\nMixed
+    within the ghastly breeze is a ... voice?\r\nYou hear a faint song coming from
+    deeper within the forest.\r\n\r\nShould you investigate?\r\n[1]: Go deeper into
+    the forest in search of who is singing.\r\n[2]: Ignore the voice and continue
+    in the opposite direction."
+  nextStates:
+  - {fileID: 11400000, guid: 2253ff75fef42b247a964d179dd65ae0, type: 2}
+  - {fileID: 11400000, guid: 62f06d31ea34b7242bd38e0ed7e40a1b, type: 2}
+  image: {fileID: 21300000, guid: 9743ef78cc544144b9c38882ddcf3018, type: 3}
+  soundEffect: {fileID: 8300000, guid: fe6451eaa5088694381c9f63bd7afde0, type: 3}

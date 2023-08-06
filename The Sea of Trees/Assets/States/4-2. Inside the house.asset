@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: 4-2. Inside the house
+  m_EditorClassIdentifier: 
+  storyText: "As you slowly approach the room, you accidentally kick something hard
+    on the ground. As your vision adjusts to the darkness, it looks like you kicked
+    an ... arm?! You frantically back away and accidentally run into something behind
+    you that falls and shatters on the ground.\r\n\r\nPanicked, you take a look around
+    the room to find dozens of life-sized mannequins scattered around the cabin.
+    Relieved that it wasn't a real arm on the ground, you take a deep breath and
+    make your way to the back room.\r\n\r\nWhat will you do?\r\r\n[1]: Calm your
+    nerves and open the door to the back room.\r\n[2]: Succumb to your nerves and
+    leave the house."
+  nextStates:
+  - {fileID: 11400000, guid: 4849b9a6af44e0246a6ed6da4c35bb81, type: 2}
+  - {fileID: 11400000, guid: a291352dbf3537f46bf6d68a86d58fde, type: 2}
+  image: {fileID: 21300000, guid: d7e489b56f9972e4986918245cbee7cc, type: 3}
+  soundEffect: {fileID: 8300000, guid: 6bc88ebc5fd0d92439c5ff95f008e0fb, type: 3}

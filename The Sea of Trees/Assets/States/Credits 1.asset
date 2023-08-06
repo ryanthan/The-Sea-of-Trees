@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: Credits 1
+  m_EditorClassIdentifier: 
+  storyText: "General Story & Art by Ryan Than \n\n- Mysterious singer storyline
+    adapted from Kuchisake-onna legend: https://en.wikipedia.org/wiki/Kuchisake-onna\n\n-
+    \"Forestry\" font provided free for personal use by Josiah Werning on the website:
+    https://www.dafont.com/forestry.font\r\n\n- \"Mom's Typewriter\" font provided
+    100% free to use by Christoph Mueller on the website: https://www.dafont.com/moms-typewriter.font\r\n\n-
+    Royalty free images provided by: https://www.pexels.com/ and https://snappygoat.com/\n[1]
+    or [2]: Continue"
+  nextStates:
+  - {fileID: 11400000, guid: f04c4065682ee88469253038303bd80c, type: 2}
+  - {fileID: 11400000, guid: f04c4065682ee88469253038303bd80c, type: 2}
+  image: {fileID: 21300000, guid: 1ee34bb74d05fab48b66599ac3aeb22f, type: 3}
+  soundEffect: {fileID: 0}

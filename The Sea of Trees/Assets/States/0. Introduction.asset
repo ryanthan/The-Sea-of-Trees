@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: 0. Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to The Sea of Trees!
+
+
+    Here is a quick overview of the
+    controls:
+
+    - If you do not want to wait for each letter to type individually,
+    press the [Enter] key to display the entire text.
+
+
+    - At each stage of the
+    story, you will be asked to push the [1] or [2] key on your keyboard to either
+    progress the story or make a choice.
+
+
+    - Press the [q] key at any point to
+    return to this screen.
+
+
+    Please press [1] or [2] to begin the game or [c]
+    to view the credits.'
+  nextStates:
+  - {fileID: 11400000, guid: 58e8cb5a94524eb4caaa66cd2a138847, type: 2}
+  - {fileID: 11400000, guid: 58e8cb5a94524eb4caaa66cd2a138847, type: 2}
+  - {fileID: 11400000, guid: 472cb349ae6ceec4c9175afb284d9fb5, type: 2}
+  image: {fileID: 21300000, guid: 9743ef78cc544144b9c38882ddcf3018, type: 3}
+  soundEffect: {fileID: 0}

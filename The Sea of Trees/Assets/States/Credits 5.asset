@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: Credits 5
+  m_EditorClassIdentifier: 
+  storyText: '- The "male scream.aif" sound effect was provided by MAJ061785 on https://freesound.org/people/MAJ061785/sounds/85554/
+    through an Attribution License. The volume was adjusted for use in this project.
+
+
+    -
+    The "Running Over Dead Leaves" sound effect was provided by Nagwense on https://freesound.org/people/Nagwense/sounds/407654/
+    through an Attribution Noncommercial License (no edits were made).
+
+
+    - All
+    other sound effects were provided by: https://freesound.org/ under the Creative
+    Commons 0 License.
+
+
+    [1] or [2]: Return to instructions.'
+  nextStates:
+  - {fileID: 11400000, guid: 690e78db16f417c47a1ae77c427f47d4, type: 2}
+  - {fileID: 11400000, guid: 690e78db16f417c47a1ae77c427f47d4, type: 2}
+  image: {fileID: 21300000, guid: 1ee34bb74d05fab48b66599ac3aeb22f, type: 3}
+  soundEffect: {fileID: 0}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: 3-1. See the singer
+  m_EditorClassIdentifier: 
+  storyText: 'Thinking it might be a camper or forest ranger, you follow the sound
+    of the voice.
+
+
+    You are led to a forest clearing where the fallen trunks
+    of ancient trees are strewn about the ground.
+
+
+    In the center sits a shadowy
+    figure, singing their melancholy melody.
+
+
+    What will you do?
+
+    [1]: Approach
+    the figure and ask for help.
+
+    [2]: Turn back and go in the opposite direction.'
+  nextStates:
+  - {fileID: 11400000, guid: cad41420c80380a479c80b9d54b79262, type: 2}
+  - {fileID: 11400000, guid: 62f06d31ea34b7242bd38e0ed7e40a1b, type: 2}
+  image: {fileID: 21300000, guid: 5de6625197507a94fb185900a223f73f, type: 3}
+  soundEffect: {fileID: 8300000, guid: 8791fcdd4c8d9da4292814f378c796bb, type: 3}

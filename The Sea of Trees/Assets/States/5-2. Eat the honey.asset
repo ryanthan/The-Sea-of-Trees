@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40adafe2fc762438b7755997ac2506, type: 3}
+  m_Name: 5-2. Eat the honey
+  m_EditorClassIdentifier: 
+  storyText: 'Tempted by the honey''s sweet aroma, you decide to have a taste.
+
+
+    Seemingly
+    entranced by the incredible sweetness and creamy texture, you can''t seem to
+    stop eating...and eating...and eating...
+
+
+    ...!
+
+
+    As you continue to
+    gorge yourself, the honey suddenly becomes a sticky, adhesive mess and before
+    you know it, you become unable to open your mouth.
+
+
+    [1] or [2]: Continue'
+  nextStates:
+  - {fileID: 11400000, guid: fe3254eef9efb7c49a4b1eadf418e707, type: 2}
+  - {fileID: 11400000, guid: fe3254eef9efb7c49a4b1eadf418e707, type: 2}
+  image: {fileID: 21300000, guid: cea9526f516253a42950ffbb0981f76e, type: 3}
+  soundEffect: {fileID: 8300000, guid: 5c09c8434d366dc41b999269a1154e68, type: 3}
